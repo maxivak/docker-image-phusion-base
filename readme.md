@@ -23,7 +23,7 @@ docker build -t my-base-phusion-1604 github.com/maxivak/docker-image-phusion-bas
 ```
 git clone https://github.com/maxivak/docker-image-phusion-base
 cd docker-image-phusion-base
-docker build -t my-base-1604 .
+docker build -t my-base-phusion-1604 .
 
 ```
 
