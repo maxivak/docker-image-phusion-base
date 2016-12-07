@@ -39,6 +39,13 @@ docker run --rm -ti my-base-phusion-1604 bash
 * ip route should work
 ```
 ip route
+
+
+# sample output
+
+default via 172.17.0.1 dev eth0 
+172.17.0.0/16 dev eth0  proto kernel  scope link  src 172.17.0.9 
+
 ```
 
 it is needed for Chef provisioning.
