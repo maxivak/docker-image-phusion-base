@@ -21,7 +21,7 @@ RUN apt-get install -y  \
 
 ### ssh
 #RUN rm -f /etc/service/sshd/down
-RUN rm -f /etc/service/sshd/down && /etc/my_init.d/00_regen_ssh_host_keys.sh > /dev/nul 2>&1
+#RUN rm -f /etc/service/sshd/down && /etc/my_init.d/00_regen_ssh_host_keys.sh > /dev/nul 2>&1
 
 ###
 RUN    apt-get clean && \
